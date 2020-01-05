@@ -39,7 +39,7 @@ public class TextController : MonoBehaviour {
 
     void state_title()
     {
-        text.text = "\t\t\t\t\t\t\t\t\tPress the Space Key to Begin";
+        text.text = "Press the Space Key to Begin";
         if (Input.GetKeyDown(KeyCode.Space) && prevState == States.title)
         {
             curState = States.intro;
